@@ -35,7 +35,7 @@ public class QuestionPapers extends Fragment {
                 Intent intent = new Intent(getActivity(), webViewPDF.class);
                 getActivity().startActivity(intent);
 
-                Toast.makeText(getActivity(),"TOC DEC 2017" + ,Toast.LENGTH_LONG).show();
+                Toast.makeText(getActivity(),"TOC DEC 2017"  ,Toast.LENGTH_LONG).show();
             }
 
         });
